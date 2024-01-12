@@ -1,0 +1,13 @@
+@import url('../css/fonts.css');
+main .about h1{
+   justify-content: center;
+background-color:  #987554;
+width: 25%;
+}
+main .about p{
+   color: black;
+margin: 3rem;
+padding: 2rem;
+
+    
+}

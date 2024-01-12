@@ -1,0 +1,11 @@
+main .article h1{
+    text-align: center;
+}
+.article p{
+    color: black;
+    margin: 1rem 3rem;
+}
+
+.article img{
+    width: 50%;
+}

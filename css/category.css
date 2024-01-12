@@ -1,0 +1,37 @@
+@import url('../css/fonts.css');
+main .category-container{
+   
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 ;
+    padding: 20px;
+}
+main .category-blog-post{
+    flex-basis: 48%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+main .category-blog-post img{
+    width: 250px;
+    margin-right: 40px;
+    transition: all 1s ease;
+}
+main .category-post-content{
+    flex-grow: 1;
+}
+main .category-post-content h2{
+font-family: livvic,cursive;
+font-weight: bold;
+
+}
+main .category-blog-post img:hover{
+    transform: scale(1.3);
+}
+main .category-blog-post a{
+    display: inline;
+    padding: .7rem 1.5rem;
+    background-color: #987554;
+
+}
